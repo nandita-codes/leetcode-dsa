@@ -39,4 +39,6 @@ Node 0 with value 2 is the only node remaining after removing node 1.
 - A dummy pointer is used to avoid the edge case of having just a singular element
 - The 'slow' pointer starts with 'dummy' while the 'fast' starts from the head
 - By the time the 'fast' pointer reaches the end, the 'slow' pointer would be just before the middle element, and make the 'slow' pointer skip that node
-  
+
+**Time Complexity -- O(n)
+Space Complexity -- O(1)**
