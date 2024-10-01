@@ -1,4 +1,4 @@
-**Linked List -- Medium - **
+****Linked List -- Medium****
 
 **Problem:**
 
