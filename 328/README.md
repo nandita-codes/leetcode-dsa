@@ -25,3 +25,6 @@ The number of nodes in the linked list is in the range [0, 10^4].
 - Follow the same for the even nodes --> 'even_pointer.next = even_pointer.next.next ==> even_pointer = even_pointer.next'
 - Finally have another pointer 'evenHead' to keep track of the start point of the even nodes linking
 - Link the last node of the odd_pointer to the evenHead
+
+**Time Complexity - O(n)**
+**Space Complexity - O(1)**
