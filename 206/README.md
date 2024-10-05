@@ -37,6 +37,6 @@ Space Complexity - O(1)**
 - Return newHead -- this is what gets returned to the recursive step
 
 **Time Complexity - O(n)
-Space Complexity - O(n) -- since we have the 'newHead' pointer**
+Space Complexity - O(n) -- since we have the 'newHead' pointer -- recursive stack**
 
 
