@@ -38,5 +38,9 @@ The number of nodes in the tree is in the range [1, 5 * 10^4].
 **Solution - dataclass**
 - Has a class with leftMax, rightMax, subtreeMax
 - these variables are updated recursively
+
+Time Complexity-O(n)
+Space Complexity- O(h)-- h is the height of the tree, best case: O(logn), worst case: O(n)
+
   
 
