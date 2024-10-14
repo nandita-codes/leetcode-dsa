@@ -32,3 +32,6 @@ The number of nodes in the tree is in the range [1, 5 * 10^4].
 
 
 **Solution:**
+- Have a function dfs that recursively updates max_zigzag variable to the max of right and left lengths <which essentially checks for the right and left maximum>
+- During the recursive calls for the left and right sides, swap and increment the left_length and right_length variables 
+
