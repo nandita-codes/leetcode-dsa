@@ -26,3 +26,8 @@ p != q
 p and q will exist in the tree.
 
 **Solution:**
+- check if the root is none or the root is equal to one of the nodes being passed (this is to ensure recursive action of the function); this function returns the node if it is present or remains as 'None'
+- have left_lca and right_lca to compute the same for the left and right sides of the tree
+- If both left_lca and right_lca exists -- this implies that p and q are on either sides of the root, and the root is returned as lca
+- In the case that both does not exist, the answer becomes null, in the case that one does not exist, the other becomes the lca
+
