@@ -1,4 +1,4 @@
-**Binary Tree - DFS - Medium
+**Binary Tree - DFS - Medium-
 Lowest Common Ancestor (LCA)**
 
 Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree.
