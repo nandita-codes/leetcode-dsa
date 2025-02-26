@@ -25,3 +25,7 @@ Output: 1
 Input: n = 2, pick = 1
 Output: 1
  
+**Solution Complexities:**
+Time Complexity: O(log n)
+Space Complexity: O(1)
+(for both versions of the solution)
