@@ -30,5 +30,5 @@ Thus, [2,0,2] is returned.
 Time Complexity: O(m*n)
 Space Complexity: O(m)
 **Binary Search:**
-Time Complexity: Sorting [O(nlogn)] + Binary Search [O(logn)]  =  O(mlogn) [approximation on the assumption thatm>>n]
+Time Complexity: Sorting [O(nlogn)] + Binary Search [O(mlogn)]
 Space Complexity: O(m)
