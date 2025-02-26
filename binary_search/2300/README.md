@@ -23,3 +23,12 @@ Explanation:
 - 1st spell: 1 * [8,5,8] = [8,5,8]. 0 pairs are successful. 
 - 2nd spell: 2 * [8,5,8] = [16,10,16]. 2 pairs are successful. 
 Thus, [2,0,2] is returned.
+
+
+**Solution Complexities:**
+**Brute Force:**
+Time Complexity: O(m*n)
+Space Complexity: O(m)
+**Binary Search:**
+Time Complexity: Sorting [O(nlogn)] + Binary Search [O(logn)]  =  O(mlogn) [approximation on the assumption thatm>>n]
+Space Complexity: O(m)
